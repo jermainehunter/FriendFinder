@@ -17,7 +17,7 @@ module.exports = (app) => {
         var newFriend = req.body;
         var myValues = newFriend.scores;
         var total = 0;
-        var closestMatch = 1000;
+        var closestMatch = 750;
         var index = -1;
         console.log(myValues);
        
@@ -59,12 +59,5 @@ module.exports = (app) => {
         // res.json(friends[index]);
     });
 
-    // I added this below code so you could clear out the table while working with the functionality.
-    // Don"t worry about it!
-    //Probably don't want to use this for the friends finder app
-    //   app.post("/api/clear", (req, res) => {
-    //     //Empty out the arrays of data
-    //     friends.length = 0;
-    //     res.json({ ok: true });
-    //   });
+   
 };

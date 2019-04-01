@@ -13,7 +13,7 @@ app.use(express.json());
 
 // you can use this to server static 
 // files from the public folder
-app.use(express.static('public'));
+app.use(express.static('./app/public'));
 
 //Require routing
 
