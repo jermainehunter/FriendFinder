@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Friend Finder Survey</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>SURVEY</h1>
+            <hr>
+            <h2>Answer following questions to find your next Buddy!</h2>
+            <br>
+            <p><a class="btn btn-dark btn-lg" href="/" role="button"><span class="glyphicon glyphicon-home"></span>
+                    Home</a></p>
+        </div>
+        <hr>
+        <div class="row">
+
+            <div class="col-lg-12">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>About Me</strong></h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <form id="friend_form">
+
+                            <div class="form-group">
+                                <label for="name">Name (Required)</label>
+                                <input required type="text" class="form-control" id="name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="role">Link to Photo Image (Required)</label>
+                                <input required type="text" class="form-control" id="photo">
+                            </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-12">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Survey Questions</strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        <!--Question 1-->
+                        <div class="card">
+                            <div class="card-header">Question 1</div>
+                            <div class="card-body">
+                                <h5>I prefer variety to routine.</h5>
+                                <select class="chosen-select" id="q1">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Whatever Man)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <hr>
+                        <!--Question 2-->
+                        <div class="card">
+                            <div class="card-header">Question 2</div>
+                            <div class="card-body">
+                                <h5>I am easily intimidated.</h5>
+                                <select class="chosen-select" id="q2">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Whatever Man)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <hr>
+                        <!--Question 3-->
+                        <div class="card">
+                            <div class="card-header">Question 3</div>
+                            <div class="card-body">
+                                <h5>I would never cheat on my taxes.</h5>
+                                <select class="chosen-select" id="q3">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Whatever Man)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <hr>
+                        <!--Question 4-->
+                        <div class="card">
+                            <div class="card-header">Question 4</div>
+                            <div class="card-body">
+                                <h5>I dislike being the center of attention.</h5>
+                                <select class="chosen-select" id="q4">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Whatever Man)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <hr>
+                        <!--Question 5-->
+                        <div class="card">
+                            <div class="card-header">Question 5</div>
+                            <div class="card-body">
+                                <h5>People can rarely upset you.</h5>
+                                <select class="chosen-select" id="q5">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Whatever Man)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <hr>
+                        <!--Question 6-->
+                        <div class="card">
+                            <div class="card-header">Question 6</div>
+                            <div class="card-body">
+                                <h5>I choose my words with care.</h5>
+                                <select class="chosen-select" id="q6">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Whatever Man)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <!--Question 7-->
+                        <div class="card">
+                            <div class="card-header">Question 7</div>
+                            <div class="card-body">
+                                <h5>I feel comfortable around people.</h5>
+                                <select class="chosen-select" id="q7">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Whatever Man)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <hr>
+                        <!--Question 8-->
+                        <div class="card">
+                            <div class="card-header">Question 8</div>
+                            <div class="card-body">
+                                <h5>I can talk others into doing things.</h5>
+                                <select class="chosen-select" id="q8">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Whatever Man)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <hr>
+                        <!--Question 9-->
+                        <div class="card">
+                            <div class="card-header">Question 9</div>
+                            <div class="card-body">
+                                <h5>I see beauty in things that others might not notice.</h5>
+                                <select class="chosen-select" id="q9">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Whatever Man)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <hr>
+                        <!--Question 10-->
+                        <div class="card">
+                            <div class="card-header">Question 10</div>
+                            <div class="card-body">
+                        <h5>I believe that criminals should receive help rather than punishment.</h5>
+                        <select class="chosen-select" id="q10">
+                            <option value="">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2 (Somewhat Disagree)</option>
+                            <option value="3">3 (Whatever Man)</option>
+                            <option value="4">4 (Somewhat Agree)</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <br><br>
+                        <button type="submit" class="btn btn-dark btn-lg" id="submit-btn">Submit</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p><a href="/api/friends">API Friends List</a></p>
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <script type="text/javascript">
+        $("#friend_form").on("submit", function () {
+            event.preventDefault();
+            console.log("Works");
+            const newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+            };
+            console.log(newFriend);
+            alert("Searching for your match...");
+
+            $.post("/api/friends", newFriend)
+                .done(function (data) {
+                    console.log(data);
+                    $('#caption').text(data.name);
+                    $('#imagepreview').attr('src', data.photo);
+                    $('#imagemodal').modal('show');
+                });
+            $("#name").val("");
+            $("#photo").val("");
+            [$("#q1").val(""), $("#q2").val(""), $("#q3").val(""), $("#q4").val(""), $("#q5").val(""), $("#q6").val(""), $("#q7").val(""), $("#q8").val(""), $("#q9").val(""), $("#q10").val("")]
+        });
+    </script>
+
+
+</body>
+
+</html>
