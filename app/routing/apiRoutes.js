@@ -34,6 +34,9 @@ module.exports = (app) => {
             for (let j = 0; j < myValues.length; j++) {
                 //for each friend calculate the total value
                 //Math.abs method will give us the absolute value
+                ////////////////////////////////////
+                //////////////////////////////
+                //getting an error on the line below...not sure why. ugh
                 var diff = Math.abs(myValues[j] - friends[i].scores[j]);
                 total += diff;
             }
