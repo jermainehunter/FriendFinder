@@ -249,7 +249,7 @@
 
             $.post("/api/friends", newFriend)
                 .done(function (data) {
-                    console.log(data);
+                    // console.log(data);
                     $('#caption').text(data.name);
                     $('#imagepreview').attr('src', data.photo);
                     $('#imagemodal').modal('show');

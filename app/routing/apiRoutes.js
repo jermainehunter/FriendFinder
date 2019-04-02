@@ -43,7 +43,7 @@ module.exports = (app) => {
             }
 
             // 13 15 18 14 12 11 16
-            console.log(total);
+            // console.log(total);
 
           
             // Determines lowest total
@@ -56,7 +56,7 @@ module.exports = (app) => {
             }
         }
 
-          console.log(friends)
+        //   console.log(friends)
           friends.push(newFriend);
         console.log('Closest Match:', friends[index]);
         res.send(friends)

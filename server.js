@@ -1,3 +1,8 @@
+/////////////////////////////
+
+// ADDED THE LIRI NODE HOMEWORK TO MY PORTFOLIO
+//CHECK IT OUT... https://jermainehunter.github.io/Bootstrap-Portfolio/portfolio.html
+
 //Dependencies
 const express = require("express");
 const path = require("path");
