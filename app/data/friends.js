@@ -24,9 +24,9 @@ const friends = [{
     name: "Rickey Henderson",
     photo: "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NTU2MzE1ODgwODUwOTU1/rickey-henderson-38142-1-402.jpg",
     scores: [2, 2, 5, 1, 4, 2, 1, 5, 1, 3]
-  }, {
+  }, 
  
-  }];
+  ];
   
    //export array
   

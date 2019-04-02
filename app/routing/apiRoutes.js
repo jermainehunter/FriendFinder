@@ -21,7 +21,7 @@ module.exports = (app) => {
         var index = -1;
         console.log(myValues);
        
-        friends.push(newFriend);
+       
          //Iterate through the whole list of friends already in database
         // Will loop 6 times becuase of friends length
         //or will loop through however many friends objects we have
@@ -37,7 +37,8 @@ module.exports = (app) => {
                 ////////////////////////////////////
                 //////////////////////////////
                 //getting an error on the line below...not sure why. ugh
-                var diff = Math.abs(myValues[j] - friends[i].scores[j]);
+                var diff = Math.abs(friends[i].scores[j] - myValues[j]);
+                //var diff = Math.abs(myValues[j] - friends[i].scores[j]);
                 total += diff;
             }
 
@@ -56,7 +57,7 @@ module.exports = (app) => {
         }
 
           console.log(friends)
-
+          friends.push(newFriend);
         console.log('Closest Match:', friends[index]);
         res.send(friends)
         // res.json(friends[index]);
